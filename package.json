@@ -1,0 +1,21 @@
+{
+  "name": "IBM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ibm",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ibm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
