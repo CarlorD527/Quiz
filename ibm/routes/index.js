@@ -5,13 +5,19 @@ const router = express.Router();
 
 router.get('/', (req,res) => {
    
-    res.render('index.html', { title: 'La pagina de rodolfo' });
+    res.render('index.html', { title: 'La pagina de rolf' });
 
 });
 
-router.get('/contact', (req,res) => {
+router.get('/Login', (req,res) => {
    
-    res.render('contact.html', { title: 'Pagina de contacto' });
+    res.render('Login.html', { title: 'Login' });
+
+});
+
+router.get('/quiz', (req,res) => {
+   
+    res.render('quiz.html', { title: 'Quiz Page' });
 
 });
 

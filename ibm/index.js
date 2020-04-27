@@ -21,7 +21,7 @@ app.use(require('./routes/index'));
 //servidor escuchando
 app.get('/', (req,res) => {
    
-    res.render('index', {title: 'La pagina de rodolfo'});
+    res.render('index', {title: 'La pagina de rolf'});
 
 });
 
